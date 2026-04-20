@@ -60,6 +60,39 @@ It is designed as a **production-style ML inference service**, not a notebook pr
 
 ---
 
+## 📂 Dataset
+
+Add:
+
+Due to size constraints, raw datasets are not included in this repository.
+
+To reproduce training:
+
+1. Download phishing dataset from Kaggle  
+2. Download PhishTank dataset  
+3. Prepare legitimate URL dataset  
+4. Run:
+
+```bash
+python src/dataset_builder.py
+```
+
+---
+
+# 🔥 Senior-Level Touch (Highly Recommended)
+
+Create:
+
+```bash
+mkdir data/sample
+```
+
+> Add small file:
+
+**data/sample/sample_urls.csv**
+
+---
+
 ## 🧠 System Architecture
 
 ```text
@@ -215,9 +248,14 @@ README.md
 ## 👨‍💻 Author
 
 **Busade Adedayo**
-Senior Software Engineer | Solution Architect
-Specializing in ML Systems & Backend Architecture
+**Solution Architect & Senior Software Engineer** (Healthcare Systems)
 
+* 8+ years of professional software engineering experience, including **4+ years full-time** building and maintaining production Electronic Medical Records (EMR) systems and **3+ years** as a consultant to a leading EMR solutions provider.
+* Strong focus on scalable **enterprise solution architecture**, clinical workflow optimization, auditability, and production reliability.
+* Experience with hospital-grade workflows
+* AWS Cloud Practitioner certified and currently preparing for the **AWS Solutions Architect Associate** certification.
+* Broad experience across backend systems, cloud architecture, and enterprise software solutions.
+* 
 ---
 
 ## 📜 License
