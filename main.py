@@ -84,7 +84,7 @@ def create_app() -> FastAPI:
 
             "* **Docker-First:** Optimized for containerized environments like Render/Kubernetes.\n"
 
-            " **Environment:** Production-Ready"
+            "* **Environment:** Production-Ready"
         ),
 
         version="2.1.0",

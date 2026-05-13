@@ -16,7 +16,7 @@
 👉 **Live API:**
 
 ```
-https://phishguard-engine.onrender.com/docs
+https://phishguard.busade.dev/docs
 ```
 
 ---
@@ -31,7 +31,9 @@ https://phishguard-engine.onrender.com/docs
 
 ### 📌 Prediction Example
 
-![Prediction Output](docs/screenshots/prediction.png)
+![Prediction Phishing Output](docs/screenshots/prediction-phishing.png)
+
+![Prediction Legitimate Output](docs/screenshots/prediction-legitimate.png)
 
 ---
 
@@ -41,9 +43,25 @@ https://phishguard-engine.onrender.com/docs
 
 ---
 
+### 📌 Running Docker Image
+
+![Running Docker Image](docs/screenshots/running-docker.png)
+
+---
+
 ## 🚀 Overview
 
-**PhishGuard Engine** is a lightweight machine learning system for detecting suspicious URLs using structural feature analysis.
+### 🛡️ PhishGuard Engine
+**Busade PhishGuard Engine** is a high-performance, production-grade microservice dedicated to real-time URL threat intelligence. Moving beyond experimental notebooks, this system implements a complete ML inference pipeline designed for low-latency detection and seamless architectural integration.
+
+🚀 Engineering Highlights
+Production-First Architecture: Built with FastAPI using the modern lifespan pattern for optimized resource management and startup efficiency.
+
+High-Speed Inference: Implements structural feature extraction for ML classification, delivering sub-millisecond threat scoring without the overhead of heavy external dependencies.
+
+Cloud-Native & DevOps Ready: Fully containerized with Docker, featuring a specialized Makefile workflow and automated CI/CD deployment pipelines to Render.
+
+Enterprise Standards: Features structured logging, comprehensive health monitoring, and an interactive OpenAPI (Swagger) interface for rapid integration testing.
 
 It is designed as a **production-style ML inference service**, not a notebook prototype.
 
@@ -276,17 +294,22 @@ README.md
 
 ---
 
-## 👨‍💻 Author
+## 👤 ABOUT THE ENGINEER
 
 **Busade Adedayo**
-**Solution Architect & Senior Software Engineer** (Healthcare Systems)
+*Senior Software Engineer / Solution Architect (Healthcare Systems)*
 
-* 8+ years of professional software engineering experience, including **4+ years full-time** building and maintaining production Electronic Medical Records (EMR) systems and **3+ years** as a consultant to a leading EMR solutions provider.
-* Strong focus on scalable **enterprise solution architecture**, clinical workflow optimization, auditability, and production reliability.
-* Experience with hospital-grade workflows
-* AWS Cloud Practitioner certified and currently preparing for the **AWS Solutions Architect Associate** certification.
-* Broad experience across backend systems, cloud architecture, and enterprise software solutions.
-* 
+* 10+ years of total experience in full-stack engineering and systems architecture.
+* 7+ years specialized in HealthTech, architecting and scaling production-grade Electronic Medical Record (EMR) systems.**Electronic Medical Record (EMR)** systems
+Led architecture and development of domain-driven, modular healthcare platforms used in real clinical workflows
+Strong focus on:
+✔  Clinical workflow digitization (SOAP notes, vitals, prescriptions)
+✔ System architecture & scalability (DDD, modular monolith design)
+✔ Healthcare interoperability (FHIR R4 standards)
+✔ Security & Compliance: Specialized in RBAC/PBAC, HIPAA-aligned audit logging, and "Break-the-Glass" (BTG) emergency access protocols
+✔ Experienced in designing enterprise backend systems with observability, logging, and monitoring layers
+✔ AWS Cloud Practitioner certified | Preparing for AWS Solutions Architect - Associate
+✔ **Passionate about building global-standard healthcare infrastructure from Africa for global markets*
 ---
 
 ## 📜 License
