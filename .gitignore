@@ -63,7 +63,7 @@ __pycache__/
 venv/
 .venv/
 env/
-model/
+models/
 
 # Environment
 .env
