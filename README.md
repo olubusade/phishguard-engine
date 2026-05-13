@@ -16,7 +16,7 @@
 👉 **Live API:**
 
 ```
-https://your-deployment-url.onrender.com/docs
+https://phishguard-engine.onrender.com/docs
 ```
 
 ---
@@ -175,7 +175,7 @@ Response:
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/your-username/phishguard-engine
+git clone https://github.com/olubusade/phishguard-engine
 cd phishguard-engine
 
 python -m venv venv
@@ -190,8 +190,39 @@ uvicorn app.main:app --reload
 ## 🐳 Docker Deployment
 
 ```bash
-docker build -t phishguard-engine .
-docker run -p 8000:8000 phishguard-engine
+## 🚀 PhishGuard Engine - Installation & Setup
+
+### Prerequisites
+- Docker & Docker Compose
+- Python 3.12 (for local venv testing)
+
+### Local Development (Using Docker)
+We use a `Makefile` to simplify Docker operations. 
+
+1. **Build the image:**
+```bash
+   make build
+```
+2. **Run the engine:**
+```bash
+make run
+```
+The API will be available at http://localhost:8000 and Swagger docs at http://localhost:8000/docs.
+
+3. **Stop the engine:**
+
+```bash
+make stop
+```
+4. **View live logs:**
+
+```bash
+make logs
+```
+5. **Quick Refresh (Rebuild & Restart):**
+
+```Bash
+make up
 ```
 
 ---
