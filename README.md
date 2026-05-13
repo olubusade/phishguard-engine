@@ -54,14 +54,14 @@ https://phishguard.busade.dev/docs
 ### 🛡️ PhishGuard Engine
 **Busade PhishGuard Engine** is a high-performance, production-grade microservice dedicated to real-time URL threat intelligence. Moving beyond experimental notebooks, this system implements a complete ML inference pipeline designed for low-latency detection and seamless architectural integration.
 
-🚀 Engineering Highlights
-Production-First Architecture: Built with FastAPI using the modern lifespan pattern for optimized resource management and startup efficiency.
+#### 🚀 Engineering Highlights
+***Production-First Architecture:** Built with FastAPI using the modern lifespan pattern for optimized resource management and startup efficiency.
 
-High-Speed Inference: Implements structural feature extraction for ML classification, delivering sub-millisecond threat scoring without the overhead of heavy external dependencies.
+**High-Speed Inference:** Implements structural feature extraction for ML classification, delivering sub-millisecond threat scoring without the overhead of heavy external dependencies.
 
-Cloud-Native & DevOps Ready: Fully containerized with Docker, featuring a specialized Makefile workflow and automated CI/CD deployment pipelines to Render.
+**Cloud-Native & DevOps Ready:** Fully containerized with Docker, featuring a specialized Makefile workflow and automated CI/CD deployment pipelines to Render.
 
-Enterprise Standards: Features structured logging, comprehensive health monitoring, and an interactive OpenAPI (Swagger) interface for rapid integration testing.
+**Enterprise Standards:** Features structured logging, comprehensive health monitoring, and an interactive OpenAPI (Swagger) interface for rapid integration testing.
 
 It is designed as a **production-style ML inference service**, not a notebook prototype.
 
@@ -303,13 +303,13 @@ README.md
 * 7+ years specialized in HealthTech, architecting and scaling production-grade Electronic Medical Record (EMR) systems.**Electronic Medical Record (EMR)** systems
 Led architecture and development of domain-driven, modular healthcare platforms used in real clinical workflows
 Strong focus on:
-✔  Clinical workflow digitization (SOAP notes, vitals, prescriptions)
-✔ System architecture & scalability (DDD, modular monolith design)
-✔ Healthcare interoperability (FHIR R4 standards)
-✔ Security & Compliance: Specialized in RBAC/PBAC, HIPAA-aligned audit logging, and "Break-the-Glass" (BTG) emergency access protocols
-✔ Experienced in designing enterprise backend systems with observability, logging, and monitoring layers
-✔ AWS Cloud Practitioner certified | Preparing for AWS Solutions Architect - Associate
-✔ **Passionate about building global-standard healthcare infrastructure from Africa for global markets*
+*✔  Clinical workflow digitization (SOAP notes, vitals, prescriptions)*
+*✔ System architecture & scalability (DDD, modular monolith design)*
+*✔ Healthcare interoperability (FHIR R4 standards)*
+*✔ Security & Compliance: Specialized in RBAC/PBAC, HIPAA-aligned audit logging, and "Break-the-Glass" (BTG) emergency access protocols*
+*✔ Experienced in designing enterprise backend systems with observability, logging, and monitoring layers*
+*✔ AWS Cloud Practitioner certified | Preparing for AWS Solutions Architect - Associate*
+*✔ **Passionate about building global-standard healthcare infrastructure from Africa for global markets*
 ---
 
 ## 📜 License
