@@ -82,16 +82,9 @@ def create_app() -> FastAPI:
 
             "* **Zero-Trust Ready:** Easily integrates into existing security pipelines.\n"
 
-            "* **Docker-First:** Optimized for containerized environments like Render/Kubernetes.\n\n"
+            "* **Docker-First:** Optimized for containerized environments like Render/Kubernetes.\n"
 
-            
-
-            "### Contact & Support\n"
-
-            "- **Organization:** Crovix Global Technologies\n"
-
-            "- **Environment:** Production-Ready"
-
+            " **Environment:** Production-Ready"
         ),
 
         version="2.1.0",
